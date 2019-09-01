@@ -19,6 +19,7 @@ class Song
       genres_count {}
       @@genres.each do |genres|
         if genres_count[genres] # checks to see if hash has the passed in genres
+          binding.pry
           genre_count [genre] += 1 # adds a new element to the hash
         else # if it is new then add one
           genre_count[genre]= 1
