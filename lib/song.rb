@@ -6,10 +6,11 @@ class Song
   @@artist = []
 
   def initialize (song_name, artist, genre)
-      @@artist = [artist]
+      @artist = artist
       @genre = genre
       @@count += 1
       @@genres << genre
+      @@artist << artist
 
   end
 
@@ -26,20 +27,17 @@ end
 
 
 
-      #  @@artists = []
+
 
             def initialize(song_name, artist, genre)
       #    @name = song_name
-      #    @artist = artist
-      #    @genre = genre
 
-      #    @@genres << genre
-      #    @@artists << artist
+
+
+
       #  end
        #
-      #  def self.count
-      #    @@count
-      #  end
+
        #
       #  def self.genres
       #    @@genres.uniq!
