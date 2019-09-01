@@ -22,7 +22,7 @@ class Song
       album_count
     end
 
-    def genres_count
+    def self.genres_count
       genres_count = {}
       @@genres.each do |genres|
         if genres_count[genres] # checks to see if hash has the passed in genres
