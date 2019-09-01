@@ -23,7 +23,7 @@ class Song
     end
 
     def genres_count
-      genres_count= {}
+      genres_count = {}
       @@genres.each do |genres|
         if genres_count[genres] # checks to see if hash has the passed in genres
           binding.pry
@@ -36,7 +36,10 @@ class Song
     end
 
     def artist
-      artist {}
+      artist_count = {}
+      @@artist.each do |artist|
+        if artist_count |singer|
+          artist_count [singer] += 1
     end
 
 
