@@ -7,6 +7,8 @@ def initialize
   @@count +=1
 end
 
-def self
+def self.count
+  
+end
 
 end
