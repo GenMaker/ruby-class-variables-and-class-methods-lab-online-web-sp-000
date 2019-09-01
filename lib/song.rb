@@ -15,6 +15,11 @@ class Song
       @@artist << artist
     end
 
+    def artist
+
+
+    end
+    
     def new (name, artist, genre)
       @name = name
       @artist = artist
