@@ -12,6 +12,14 @@ def self.count
 end
 
 def genres (song)
-  
+  def add_student(name, grade)
+    @student_name = name
+    @grade = grade
+  #binding.pry
+    if @roster.include?(grade) == false
+      @roster[grade] = []
+    end
+      @roster[grade] << name
+  end
 end
 end
