@@ -17,7 +17,9 @@ class Song
 
     def genres_count
       genres_count {}
-      if @genre = 
+      @@genres.each do |genres|
+        if @@genres != genres
+          genres_count << genres
     end
 
 end
