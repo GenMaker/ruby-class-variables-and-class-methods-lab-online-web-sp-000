@@ -11,4 +11,7 @@ def self.count
   @@album_count
 end
 
+def genres (song)
+  
+end
 end
