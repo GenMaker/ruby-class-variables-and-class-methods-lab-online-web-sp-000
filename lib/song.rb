@@ -11,15 +11,12 @@ def self.count
   @@album_count
 end
 
-def genres (song)
-  def add_student(name, grade)
-    @student_name = name
-    @grade = grade
-  #binding.pry
-    if @roster.include?(grade) == false
-      @roster[grade] = []
+def genres (genres)
+  @genres = genres
+  if @genres.include?(genres) == false
+      @genres[genres] = []
     end
-      @roster[grade] << name
+      @genres[genres] << genres
   end
 end
 end
