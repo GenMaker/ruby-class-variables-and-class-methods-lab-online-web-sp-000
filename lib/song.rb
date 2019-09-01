@@ -8,7 +8,7 @@ def initialize
 end
 
 def self.count
-  
+  @@album
 end
 
 end
