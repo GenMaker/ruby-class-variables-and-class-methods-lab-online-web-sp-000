@@ -32,25 +32,20 @@ class Song
       if genre_count[genre] #if the genre type is in the hash
         genre_count[genre] += 1
       else
-        genre_count [genre] = 1
+        genre_count[genre] = 1
       end
     end
     genre_count
   end
 
-  
-
+  def self.artist_count
+    artist_count = {}
+    @@artists.each do |artist|
+      if artist_count[artist] #if it has the artist
+        artist_count[artist] += 1
+      else # if it doesn't start the count with a new kv pair
+        artist_count[artist] = 1
+      end
+    end
+    artist_count
 end
-
-
-      #  def self.artist_count
-      #    artist_count = {}
-      #    @@artists.each do |artist|
-      #      if artist_count[artist] #if the artist is already in the hash
-      #        artist_count[artist] += 1
-      #      else
-      #        artist_count[artist] = 1
-      #      end
-      #    end
-      #    artist_count
-      #  end
