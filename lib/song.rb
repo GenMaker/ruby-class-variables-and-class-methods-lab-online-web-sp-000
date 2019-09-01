@@ -17,5 +17,5 @@ def genres (genres)
       @genres[genres] = []
   end
       @genres[genres] << genres
-  
+  end
 end
