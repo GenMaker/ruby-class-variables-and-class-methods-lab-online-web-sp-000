@@ -8,7 +8,7 @@ def initialize
 end
 
 def self.count
-  @@album
+  @@album_count
 end
 
 end
