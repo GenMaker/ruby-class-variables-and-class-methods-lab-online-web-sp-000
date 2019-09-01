@@ -15,6 +15,7 @@ class Song
       @@album_count
     end
 
-    def genres_count 
+    def genres_count
+    end
 
 end
