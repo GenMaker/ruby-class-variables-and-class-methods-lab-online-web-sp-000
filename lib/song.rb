@@ -35,5 +35,10 @@ class Song
         genre_count
     end
 
+    def artist
+      
+    end
+
+
 
 end
