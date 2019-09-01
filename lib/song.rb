@@ -15,11 +15,6 @@ class Song
       @@album_count
     end
 
-    def genres (genres)
-      @genres = genres
-      if @genres.include?(genres) == false
-          @genres[genres] = []
-      end
-          @genres[genres] << genres
-    end
+    def genres_count 
+
 end
