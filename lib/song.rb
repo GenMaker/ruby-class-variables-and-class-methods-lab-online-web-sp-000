@@ -18,7 +18,8 @@ class Song
     end
 
     def self.count
-      @@album_count
+      album_count = @@album_count.length
+      album_count
     end
 
     def genres_count
