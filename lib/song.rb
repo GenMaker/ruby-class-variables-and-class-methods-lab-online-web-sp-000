@@ -17,7 +17,7 @@ class Song
 
     def genres_count
       genres_count {}
-      if 
+      if @genre = 
     end
 
 end
