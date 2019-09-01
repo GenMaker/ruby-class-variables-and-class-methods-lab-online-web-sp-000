@@ -16,13 +16,17 @@ class Song
     @@count
   end
 
+  def self.count
+    @@artist
+  end
+
 end
 
 
 
 
       #  @@artists = []
-       
+
             def initialize(song_name, artist, genre)
       #    @name = song_name
       #    @artist = artist
