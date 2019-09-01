@@ -17,4 +17,5 @@ class Song
           @genres[genres] = []
       end
           @genres[genres] << genres
+    end
 end
