@@ -7,7 +7,7 @@ class Song
 
     def initialize (name, artist, genre)
       @@count +=1
-      @@genres << genres
+      @@genres << genre
       @@artist << artist
     end
 
@@ -38,10 +38,12 @@ class Song
     def artist
       artist_count = {}
       @@artist.each do |artist|
-        if artist_count |singer|
-          artist_count [singer] += 1
+        if artist_count |singer| # if singer is in artist_count
+          artist_count[singer] += 1 # add singer's num of songs to to array
+        else
+            artist_count[singer] = 1
+        end
+      end
+      artist_count
     end
-
-
-
 end
